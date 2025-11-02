@@ -15,10 +15,14 @@ export const NavBar: React.FC<NavBarProps> = (props) => {
 	return (
 		<div className={styles.NavbarContainer}>
 			<div className={styles.leftElements}>
-				{props.leftChildren?.map((c, i) => <div key={i}>{c}</div>)}
+				{props.leftChildren?.map((c, i) => (
+					<div key={i}>{c}</div>
+				))}
 			</div>
 			<div className={styles.NavElements + ' ' + styles.desktopOnly}>
-				{props.children?.map((c, i) => <div key={i}>{c}</div>)}
+				{props.children?.map((c, i) => (
+					<div key={i}>{c}</div>
+				))}
 			</div>
 			<div
 				className={
@@ -39,7 +43,9 @@ export const NavBar: React.FC<NavBarProps> = (props) => {
 			>
 				<div className={styles.menuOverlayBackground}></div>
 				<div className={styles.menuOverlayItems}>
-					{props.children?.map((c, i) => <div key={i}>{c}</div>)}
+					{props.children?.map((c, i) => (
+						<div key={i}>{c}</div>
+					))}
 					<div className={styles.spacing}>
 						<Socials largeIcons={true} />
 					</div>

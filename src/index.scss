@@ -1,6 +1,7 @@
 $first-color: #282c34;
 $second-color: #303030;
 $third-color: #58b09c;
+$third-color-light: #a3e4dd;
 $fourth-color: #f34213;
 
 $white: #fff;
@@ -11,11 +12,11 @@ $transparent: #ffffff7f;
 $main-column-width: 1200px;
 
 h1,
-h2 {
+h2,
+h3 {
 	color: $third-color;
 }
 
-h3,
 h4,
 h5,
 h6 {
@@ -23,7 +24,8 @@ h6 {
 }
 
 p {
-	color: $black;
+	color: $white;
+  font-size: 1.2rem;
 }
 
 body {

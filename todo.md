@@ -8,3 +8,10 @@
 - Restrict scrolling while menu open somehow
 - Photo next to Bio
 - Pick a new photo
+
+- New content for home page
+    - Technical Skills
+    - APIs and Services
+    - Code Samples
+    - Documentation
+    - Contact Information

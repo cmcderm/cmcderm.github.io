@@ -7,6 +7,7 @@ import styles from './App.module.scss';
 import { Contact } from './Components/Pages/Contact/contact';
 import { Home } from './Components/Pages/Home/Home';
 import { Resume } from './Components/Pages/Resume/Resume';
+import { Projects } from './Components/Projects/Projects';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" Component={Home}></Route>
+          <Route path="/projects" Component={Projects}></Route>
 					<Route path="/resume" Component={Resume}></Route>
 					<Route path="/contact" Component={Contact}></Route>
 				</Routes>

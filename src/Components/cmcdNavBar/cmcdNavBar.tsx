@@ -16,6 +16,7 @@ function CmcdNavBar() {
 	return (
 		<NavBar leftChildren={[logo]}>
 			<NavItem title="HOME" path="/" />
+      <NavItem title="PROJECTS" path="/projects" />
 			<NavItem title="RESUME" path="/resume" />
 			<NavItem title="CONTACT" path="/contact" />
 		</NavBar>
