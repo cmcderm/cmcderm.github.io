@@ -1,3 +1,30 @@
+@import '../../index.scss';
+
+.container {
+  max-width: $main-column-width;
+  margin: 0 auto;
+}
+
 .header {
   font-size: 3rem;
 }
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.projectCard {
+  display:flex;
+  flex-direction: row;
+  height: 15rem;
+  gap: 2rem;
+}
+
+.projectImage {
+
+
+}
+
+.projectDescription {}
